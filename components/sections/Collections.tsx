@@ -36,7 +36,7 @@ export default function Collections() {
                 className="group relative h-[500px] overflow-hidden rounded-[40px] border border-white/10"
               >
                 <img
-                  src="/placeholder.jpg"
+                  src="/image16.jpeg"
                   className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
                   alt={item.title}
                 />
