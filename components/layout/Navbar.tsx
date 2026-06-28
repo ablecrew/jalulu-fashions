@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { Menu, ShoppingBag } from "lucide-react";
 import { motion } from "framer-motion";
 
