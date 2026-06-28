@@ -7,7 +7,6 @@ export default function Footer() {
 return ( <footer className="relative mt-32 border-t border-white/10">
 {/* Top Glow */} <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
 
-```
   <div className="container-width section-padding py-20">
     <div className="grid gap-14 md:grid-cols-2 lg:grid-cols-4">
 
@@ -99,12 +98,12 @@ return ( <footer className="relative mt-32 border-t border-white/10">
 
           <div className="flex gap-3">
             <Phone className="mt-1 text-purple-500" size={18} />
-            <span>+254 XXX XXX XXX</span>
+            <span>+254 704 24 440</span>
           </div>
 
           <div className="flex gap-3">
             <Mail className="mt-1 text-purple-500" size={18} />
-            <span>info@jalulufashions.com</span>
+            <span>jeluufashions@gmail.com</span>
           </div>
 
           <div className="flex gap-3">
@@ -188,7 +187,6 @@ return ( <footer className="relative mt-32 border-t border-white/10">
     </div>
   </div>
 </footer>
-```
 
 );
 }
