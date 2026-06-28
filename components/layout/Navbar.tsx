@@ -14,19 +14,27 @@ export default function Navbar() {
         <div className="mt-5 flex h-20 items-center justify-between rounded-full border border-white/10 bg-white/5 px-8 backdrop-blur-xl">
 
           {/* LOGO PLACEHOLDER */}
-          <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-purple-700 to-purple-500 text-xl font-bold">
-              J
-            </div>
+          <div className="flex items-center gap-4">
+
+            <Image
+              src="/logoo.png"
+              alt="JALULU FASHIONS"
+              width={60}
+              height={60}
+              className="rounded-2xl"
+              priority
+            />
 
             <div>
-              <h1 className="font-serif text-2xl tracking-[0.25em]">
+              <h1 className="font-serif text-2xl font-bold tracking-[0.35em]">
                 JALULU
               </h1>
-              <p className="text-xs text-gray-400">
+
+              <p className="text-[10px] uppercase tracking-[0.55em] text-purple-300">
                 FASHIONS
               </p>
             </div>
+
           </div>
 
           <div className="hidden gap-10 lg:flex">
