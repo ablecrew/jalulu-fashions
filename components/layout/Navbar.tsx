@@ -17,7 +17,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
 
             <Image
-              src="/logoo.png"
+              src="/Jalulu.png"
               alt="JALULU FASHIONS"
               width={60}
               height={60}
